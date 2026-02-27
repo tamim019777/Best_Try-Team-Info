@@ -24,3 +24,15 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* custom helpers used on the team page */
+.neon-heading {
+  background: linear-gradient(90deg, #00ffff, #ff00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* backdrop-filters require a little extra support class for older browsers */
+.backdrop-blur-sm {
+  backdrop-filter: blur(4px);
+}
