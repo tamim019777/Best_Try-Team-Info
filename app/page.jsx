@@ -14,7 +14,7 @@ const teamMembers = [
   {
     name: "Tamim Iqbal",
     role: "Frontend Developer",
-    imageSrc: "https://i.ibb.co/RTnjq8fJ/t-2.png",
+    imageSrc: "https://i.ibb.co/mCCvLvK5/Screenshot-2026-01-24-235608.png",
     borderGradient: "from-orange-400 to-yellow-500",
     glowShadow: "shadow-orange-500/50",
     position: "top-[25%] left-4 md:left-10", 
@@ -22,7 +22,7 @@ const teamMembers = [
   {
     name: "Alif Mahmud",
     role: "Co-Team Leader , Frontend Developer",
-    imageSrc: null,
+    imageSrc: "https://i.ibb.co/yBkfr64X/te.jpg",
     borderGradient: "from-purple-400 to-pink-600",
     glowShadow: "shadow-purple-500/50",
     position: "top-[25%] right-4 md:right-10", 
@@ -47,21 +47,22 @@ const teamMembers = [
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen w-full bg-[#010308] overflow-hidden flex items-center justify-center">
-      
+
+    <main className="relative min-h-screen w-full bg-[#010308] overflow-hidden flex items-center justify-center antialiased">
       
       <div className="fixed inset-0 z-0">
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-100" 
           style={{ 
             backgroundImage: "url('https://i.ibb.co/h1tzVSC9/Screenshot-2026-02-27-162642.png')",
-        
             backgroundRepeat: "no-repeat",
-            imageRendering: "auto"
+
+            imageRendering: "-webkit-optimize-contrast", 
+            backfaceVisibility: "hidden",
+            transform: "translateZ(0)"
           }} 
         />
         
-
         <div className="absolute inset-0 bg-black/20 z-0" />
         <div className="absolute inset-0 bg-gradient-to-b from-[#010308]/10 via-transparent to-[#010308]/80" />
       </div>
