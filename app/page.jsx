@@ -21,7 +21,7 @@ const teamMembers = [
   },
   {
     name: "Alif Mahmud",
-    role: " Frontend Developer , Backend Developer",
+    role: " Frontend AND Backend Developer",
     imageSrc: "https://i.ibb.co/yBkfr64X/te.jpg",
     borderGradient: "from-purple-400 to-pink-600",
     glowShadow: "shadow-purple-500/50",
