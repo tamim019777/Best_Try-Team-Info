@@ -27,22 +27,7 @@ const teamMembers = [
     glowShadow: "shadow-purple-500/50",
     position: "top-[25%] right-4 md:right-10", 
   },
-  {
-    name: "Khaled Mahmud Sadi",
-    role: "Frontend Developer",
-    imageSrc: "https://i.ibb.co/Kzwx9d9m/Screenshot-2026-02-27-172335.png", 
-    borderGradient: "from-orange-400 to-yellow-500",
-    glowShadow: "shadow-orange-500/50",
-    position: "bottom-10 left-10 md:left-32", 
-  },
-  {
-    name: "JH Rakib",
-    role: "Backend Developer",
-    imageSrc: "https://i.ibb.co/6csYXXTW/Screenshot-2026-02-27-171943.png",
-    borderGradient: "from-emerald-400 to-teal-600",
-    glowShadow: "shadow-emerald-500/50",
-    position: "bottom-10 right-10 md:right-32", 
-  },
+
 ];
 
 export default function Home() {
